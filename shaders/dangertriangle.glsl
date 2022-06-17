@@ -28,6 +28,6 @@ void machygraph_main(out vec4 color, in vec3 c, in vec2 t){
     //t.x -= 0.5;
     t.x *= 1.7777;
     //t.y = 2*t.y;
-    draw_triangle(c, t);
+    draw_triangle(c, t-0.2);
     color = vec4(c, 1.0f);
 }
